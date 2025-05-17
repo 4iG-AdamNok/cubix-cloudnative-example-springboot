@@ -1,0 +1,15 @@
+meta {
+  name: GET message
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/demo/message?message=Hello From Postman!
+  body: none
+  auth: none
+}
+
+params:query {
+  message: Hello From Postman!
+}
