@@ -63,9 +63,9 @@ jobs:
       run: docker login ghcr.io -u 4iG-AdamNok -p ${{ github.token }}
 
     - name: Build Docker Image
-      run: docker build . --file Dockerfile --tag ghcr.io/4iG-AdamNok/cubix/cloudnative/demo:actions
+      run: docker build . --file Dockerfile --tag ghcr.io/4ig-adamnok/cubix/cloudnative/demo:actions
 
     - name: Publish Docker Image
-      run: docker push ghcr.io/4iG-AdamNok/cubix/cloudnative/demo:actions
+      run: docker push ghcr.io/4ig-adamnok/cubix/cloudnative/demo:actions
 
    
